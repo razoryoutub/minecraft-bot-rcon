@@ -3,7 +3,7 @@ import telebot
 import random
 
 
-mcr = MCRcon("35.228.129.132", "8916sheshov")
+mcr = MCRcon(ip, pass)
 mcr.disconnect()
 mcr.connect()
 
